@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeePlays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎵 DeePlays</h1>
+
+    <div class="card">
+        <h2>Music Player</h2>
+
+        <input type="file" id="audioFile" accept="audio/*">
+
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <div class="card">
+        <h2>Voice Recorder</h2>
+
+        <button id="startRecord">Start Recording</button>
+        <button id="stopRecord" disabled>Stop Recording</button>
+
+        <div id="recordings"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

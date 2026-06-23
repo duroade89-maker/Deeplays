@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#000;
+    color:#FFD700;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:700px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:3rem;
+    text-shadow:0 0 15px #FFD700;
+}
+
+.card{
+    background:#111;
+    border:2px solid #FFD700;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 15px rgba(255,215,0,0.4);
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+input[type=file]{
+    width:100%;
+    padding:10px;
+    background:#222;
+    color:#FFD700;
+    border:1px solid #FFD700;
+    border-radius:8px;
+}
+
+audio{
+    width:100%;
+    margin-top:15px;
+}
+
+button{
+    background:#FFD700;
+    color:#000;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    margin-right:10px;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+button:hover{
+    box-shadow:0 0 20px #FFD700;
+    transform:scale(1.05);
+}
+
+button:disabled{
+    opacity:0.5;
+    cursor:not-allowed;
+}
+
+.recording{
+    margin-top:15px;
+    padding:10px;
+    border:1px solid #FFD700;
+    border-radius:10px;
+}
+
+.download-link{
+    display:inline-block;
+    margin-top:10px;
+    color:#FFD700;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.download-link:hover{
+    text-decoration:underline;
+}
